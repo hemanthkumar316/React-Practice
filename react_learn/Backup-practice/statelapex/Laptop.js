@@ -28,7 +28,7 @@ class Laptop extends React.Component{
                     <tbody>
                         <tr>
                             <td>{this.state.Product_Name}</td>
-                            <td><img src={this.state.image} width="350px" height="350px"/></td>
+                            <td><img src={this.state.image} width="350px" height="300px"/></td>
                             <td>{this.state.price}</td>
                             <td>
                                 <i class="fa fa-minus-circle" onClick={this.decrHandler}/>
