@@ -34,8 +34,8 @@ class ContactApp extends React.Component{
                        {
                              Object.keys(this.state.selectedContact).length > 0 ? <> <ContactDetails details={this.state.selectedContact} /></> : null
                             } 
-{/*  
-                        <ContactDetails/>                  */}
+ 
+                        {/* <ContactDetails/>                  */}
                         </div>
             </div>
         </div>
