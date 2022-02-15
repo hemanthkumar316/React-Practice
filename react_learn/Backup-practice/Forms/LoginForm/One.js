@@ -9,7 +9,7 @@ class One extends React.Component{
     }
     submitHandler=(event)=>{
        event.preventDefault()
-       console.log(this.state);s
+       console.log(this.state);
     }
 render(){
     return <>
