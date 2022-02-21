@@ -1,5 +1,5 @@
 import React from'react'
-import Navbar from'../../src/Navabar'
+import Navbar from'./Navabar'
 import{BrowserRouter as Router,Switch,Route} from'react-router-dom'
 import Message from'./Message/Message'
 import Product from'./Product/Product'
