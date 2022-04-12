@@ -23,13 +23,13 @@ const Multipleinput = () => {
     <pre>{JSON.stringify(user)}</pre>
     <form onSubmit={submithandler}>
       <label>user Name</label>
-      <input type='text' className='form-control' placeholder='enter your name'name='user_name' id='user_name'value={user.user_name}onChange={changeInput}/>
+      <input type='text'  placeholder='enter your name'name='user_name' id='user_name'value={user.user_name}onChange={changeInput}/>
       <label>Email</label>
-      <input type='email' className='form-control' placeholder='enter a valid email address'name='email'id='email' value={user.email}onChange={changeInput}/>
+      <input type='email' placeholder='enter a valid email address'name='email'id='email' value={user.email}onChange={changeInput}/>
       <label>Password</label>
-      <input type='password' className='form-control' placeholder='enter your password'name='password' id='password' value={user.password}onChange={changeInput}/>
+      <input type='password'  placeholder='enter your password'name='password' id='password' value={user.password}onChange={changeInput}/>
       <label>Phone</label>
-      <input type='number' className='form-control' placeholder='enter your phone number'name='phone'id='phone' value={user.phone}onChange={changeInput}/>
+      <input type='number'  placeholder='enter your phone number'name='phone'id='phone' value={user.phone}onChange={changeInput}/>
       <input type='submit' className='btn btn-success' value='submit'/>
       </form> 
       <div>
