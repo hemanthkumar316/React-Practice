@@ -40,16 +40,16 @@ if(Object.keys(formerrors).length===0 & issubmit){
 
  const validate=(values)=>{
   const errors={}
- const usercheck=/^[a-z0-9]+\@[a-z]+\.[a-z]{2,6}$/
+  const usercheck=/^[a-z0-9]+\@[a-z]+\.[a-z]{2,6}$/
   if(!values.username){
    errors.username='username is Required'
   }
   if(!values.email){
    errors.email='Email is Required'
   }
- else if(!usercheck.test(values.email)){
-  errors.email='This is not valid email format'
- }
+  else if(!usercheck.match(values.email)){
+    errors.email="this is not email"
+  }
   if(!values.password){
    errors.password='password is required'
   }

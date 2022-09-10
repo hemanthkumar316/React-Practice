@@ -1,6 +1,6 @@
 import React from 'react'
 import { FirstName,LastName } from './App'
-const Compc = () => {
+const Compc =() => {
   return (
     <>
      <FirstName.Consumer>

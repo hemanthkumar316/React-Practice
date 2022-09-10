@@ -4,7 +4,7 @@ const FirstName=createContext();
 const LastName=createContext();
 const App = () => {
   return (
-    <div>
+    <div >
      <FirstName.Provider value={'Hemanth'}>
       <LastName.Provider value={'Kumar'}>
      <CompA/> 
